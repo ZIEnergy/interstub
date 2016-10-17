@@ -1,0 +1,7 @@
+mixin form(additionalClass)
+  form(action="#" method="post").form(class=additionalClass)
+    h1.form__header Скоро открытие 
+    .form__divider
+    .form__comment Оставьте емейл и получите <br>скидку на первую покупку! 
+    input.form__input(type="email" name="email" required)
+    button.form__button Получить скидку
